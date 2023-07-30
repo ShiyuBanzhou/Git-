@@ -20,13 +20,13 @@
 登录[Github注册网址](https://github.com/signup?source=login)按照网站提示进行账号注册。
 >注意：在创建用户名Username时谨慎选择，在日后参与他人项目或是创建自己项目的过程中，如若频繁更改用户名，可能会造成项目引用链接的失效，造成不必要的麻烦。
 ##2.熟悉Git基本指令
-- [ ] 创建新仓库
+- [x] 创建新仓库
 >创建新文件夹，打开，然后执行
 ``````Bash
 $git init
 ``````
 >以创建新的 git 仓库。
-- [ ] 检出仓库
+- [x] 检出仓库
 >执行如下命令以创建一个本地仓库的克隆版本：
 ``````Bash:
 $git clone /path/to/repository
@@ -40,7 +40,7 @@ $git clone username@host:/path/to/repository
 >你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 工作目录，它持有实际文件；第二个是 暂存区（Index），它像个缓存区域，临时保存你的改动；最后是 HEAD，它指向你最后一次提交的结果。
 ![工作流](./Image/工作流.png)
 ---
-- [ ] 添加和提交
+- [x] 添加和提交
 >你可以提出更改（把它们添加到暂存区），使用如下命令：
 ``````Bash
 $git add <filename>
@@ -51,7 +51,7 @@ $git add *
 $git commit -m "代码提交信息"
 ``````
 现在，你的改动已经提交到了 HEAD，但是还没到你的远端仓库。
-- [ ] 推送改动
+- [x] 推送改动
 >你的改动现在已经在本地仓库的 HEAD 中了。执行如下命令以将这些改动提交到远端仓库：
 ``````Bash
 $git push origin master
@@ -63,7 +63,7 @@ $git push origin master
 $git remote add origin <server>
 ``````
 如此你就能够将你的改动推送到所添加的服务器上去了。
-- [ ] 分支
+- [x] 分支
 >分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。
 ![分支](./Image/分支.png)
 创建一个叫做“feature_x”的分支，并切换过去：
@@ -82,7 +82,7 @@ $git branch -d feature_x
 ``````Bash
 $git push origin <branch>
 ``````
-- [ ] 更新与合并
+- [x] 更新与合并
 >要更新你的本地仓库至最新改动，执行：
 ``````Bash
 $git pull
