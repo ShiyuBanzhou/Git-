@@ -1,12 +1,12 @@
-#一、Git教学
+# Git教学
 需要掌握的知识：
 >1.安装Git并创建Github账号
 2.熟悉Git基本指令
 3.实现你的第一次Github上传
 
-##1.安装Git并创建Github账号
+## 1.安装Git并创建Github账号
 
-###Ⅰ.安装Git
+### Ⅰ.安装Git
 .[下载Git macOs版](https://git-scm.com/download/mac)
 .[下载Git Windows版](https://gitforwindows.org/)
 .[下载Git Linux版](https://book.git-scm.com/download/linux)
@@ -16,7 +16,7 @@
 >安装包下载好后，在安装的过程中，如无需特殊需求，所有设置按照安装包提供的默认设置即可，安装的目录可以设置在自己常用的硬盘中，推荐安装在非系统盘中。
 如需了解每一选项的大致作用，可以跳转至[Windows下Git安装](https://www.bilibili.com/video/BV1Rb4y1C7z1/?spm_id_from=333.1007.top_right_bar_window_history.content.click)了解
 
-###Ⅱ.创建Github账号
+### Ⅱ.创建Github账号
 登录[Github注册网址](https://github.com/signup?source=login)按照网站提示进行账号注册。
 >注意：在创建用户名Username时谨慎选择，在日后参与他人项目或是创建自己项目的过程中，如若频繁更改用户名，可能会造成项目引用链接的失效，造成不必要的麻烦。
 ##2.熟悉Git基本指令
@@ -100,7 +100,7 @@ $git add <filename>
 ``````Bash
 $git diff <source_branch> <target_branch>
 ``````
-##3.实现你的第一次Github上传
+## 3.实现你的第一次Github上传
 >.首先登录已创建的Github账号，点击Github主页右上方的加号，点击里面的New repository。
 ![上传流程1](./Image/上传流程1.png)
 ---
