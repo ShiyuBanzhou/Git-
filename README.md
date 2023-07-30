@@ -10,7 +10,7 @@ Git 是一个由 Linux 之父 Linus Torvalds 创造的分布式版本控制系�
 
 如果你还没有安装 Git，可以按照以下步骤安装：
 
-1. **Windows 系统**：从 Git 官网(https://gitforwindows.org/)下载最新的 Windows 安装程序，然后运行安装向导，按照提示完成安装。
+1. **Windows 系统**：从 [Git 官网](https://gitforwindows.org/)下载最新的 Windows 安装程序，然后运行安装向导，按照提示完成安装。
 
 2. **macOS 系统**：使用 Homebrew 进行安装，打开终端并运行以下命令：
 
